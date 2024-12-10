@@ -1,0 +1,122 @@
+/* Corpo da página */
+body {
+    /*background-color:  #282929;*/
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    color: #f5f5f5; /* Cor de texto (branco claro) */
+}
+
+.stApp {
+    background-image: url("https://aula-unifor.s3.us-east-1.amazonaws.com/IMAGEM.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIA3QWYVJWJWMAMHMUL%2F20241208%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241208T175238Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD54%2BUPF7JtMV2F45yWHslc%2FAzkhbrAMHeGXCPB6mUH5gIgc%2FwFwQz021%2BMwNb38FsmQ5G886f0t%2FXbOV1hm35rYKwq7AIIYxAEGgw3OTE4MDIxMDUyMzUiDMksytrPOfsNDnQroyrJAsfsTkkQXyAVx0X%2FQSOLRzrmwca3vsejoZ3%2F3U05gIfqkY3fAFS%2F5EScrokEm9q3XdZ1d5PwZKggGg%2Fxa8pq%2FxlI23leQnc1rpKTAaTpPb%2F5IHYDfzwiQdxFDaU5TjsIeme4XWGGsbG9O40QiaO0bcG3VsCTfsnLzbnHzCyBg4sk2%2F3zy0molDGlwgufLLJDEd4CXDnB%2BjJ5S3iUp3xxCpzymz%2FCiyYxTB5Ihu4mqlt1inXz%2BNiSnv98MGlXYeVfu2JcmCBFn%2B6XrNUgc8GoGZLwHSOnzbviar%2B%2FwRdgdPlELLm4XC8NidIHlvMlQviOAKAaaADWIm5bGIxt7ulWAlisPZxix9xcn0CoCTHRrPilU15O%2Bq1%2FDdXNAaXEv%2BjGPhTTWeqGMoRHJOQ0ag1DzCfgbeJz9lNuq8peDR6Jd2InVqHrvNZMPVhQMNnl1roGOrMCtEir356CMAa4cfQk3Nt8LfAPz4s9ERWUEG6q3xZaNabyET%2BzQwHwnqPCN3yj4BXrRuk3ZTKhNwxxGP01vw%2BDXCRG1U%2B3N0hwCoap15mP%2Fq3jGRM3yAn6oOSpWbekLbJibFBMENKOn%2FBXPBzmJr3d4mF2dSa4bgYTVvUNPq1gPmMACXiiUjj6sm27%2BD4Q%2BZ0pSMu8ukgzBZQTHOdCFQpAL7FsSIe2z38hRFn%2B5MBwbXQxa1G3Njrwpp4VEs4QwxzwyYJ6b6X1jcvqLHKcuu6vhMEBG4loJIYjdSdCfZlOYcpBYCpd8yinC6rS4y73psMQUAFv2WyBeRWvt6aYGACRc5B%2FCq39fQhv7F3u%2FS4AV%2Bo1tVpZIceyon%2FwlGGsl6ldD7rmYOnIidDx%2FA4Q9KOaoa%2Fq%2Bw%3D%3D&X-Amz-Signature=5b0d30e8f31c83fe01cb9205b879cf3426e17587e56084709895e1235b3e6ba9&X-Amz-SignedHeaders=host&response-content-disposition=inline");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table {
+    color:aquamarine;
+    border-color: aquamarine;
+}
+
+.st-emotion-cache-arzcut {
+    border-radius: 15px 15px 0 0;
+    background-color: rgba(25,25,25, 0.1);
+}
+
+.st-emotion-cache-4oy321{
+    background-color: rgba(31,48,61, 0.8);
+}
+
+.st-emotion-cache-1c7y2kd {
+    background-color: rgba(31,48,61, 0.5);
+}
+
+/* Título principal (h1) */
+h1 {
+    color: #e0e0e0; /* Cinza claro */
+    text-align: center;
+}
+
+/* Subtítulos (h2, h3) */
+h2, h3 {
+    color: #dcdcdc; /* Outro tom de cinza claro */
+    text-align: center;
+}
+
+/* Parágrafos */
+p {
+    color: #dcdcdc; /* Cinza claro */
+    line-height: 1.6;
+}
+
+ol, ul , li {color:#bfbfbf}
+
+/* Links */
+a {
+    color: #bfbfbf; /* Cinza médio */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff; /* Branco ao passar o mouse */
+}
+
+/* Botões */
+button {
+    background-color: #333333; /* Cinza escuro */
+    color: #f5f5f5; /* Branco claro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444444; /* Cinza ligeiramente mais claro */
+}
+
+/* Containers e Widgets personalizados */
+.stButton>button {
+    background-color: #4a4a4a; /* Botões do Streamlit com fundo cinza escuro */
+    color: white;
+    border: 2px solid #333333;
+    border-radius: 10px;
+}
+
+.stTextInput>div>input {
+    background-color: #262626; /* Caixa de input com fundo cinza escuro */
+    color: white;
+    border: 2px solid #444444;
+}
+
+.stTextArea>div>textarea {
+    background-color: #262626; /* Caixa de textarea com fundo cinza escuro */
+    color: white;
+    border: 2px solid #444444;
+}
+
+.st-emotion-cache-1r4qj8v {
+    background-color: #7e2828;
+}
+
+.st-emotion-cache-arzcut, .st-emotion-cache-6qob1r {
+    background-color: #191d1f;
+}
+
+.st-emotion-cache-1dp5vir, .st-emotion-cache-12fmjuu, .st-emotion-cache-uhkwx6 {
+    background: none;
+}
+
+.st-emotion-cache-1r4qj8v{
+    background: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Preto com cinza */
+    color: #bfbfbf; /* Cinza médio */
+}

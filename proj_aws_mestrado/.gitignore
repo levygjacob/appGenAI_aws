@@ -1,0 +1,12 @@
+*.env
+*.pdf
+*.docx
+*.csv
+*.xlsx
+*.png
+*.mp4
+*.webp
+trabalho_nuvem/
+bootstrapCredentials.py
+teste.py
+__pycache__/

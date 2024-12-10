@@ -1,0 +1,6 @@
+streamlit
+openai
+boto3
+uuid
+botocore
+os 
