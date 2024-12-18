@@ -71,31 +71,6 @@ Esta aplicação demonstra a integração de tecnologias de **Machine Learning**
 
 ---
 
-## 🚀 Como Executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-
-2. Configure as credenciais da AWS:
-    Certifique-se de que suas credenciais da AWS estão configuradas no ambiente ou via boto3.
-    
-3. Instale as dependências:
-    ```bash
-    pip install -r requirements.txt
-
-4. Execute a aplicação
-    ```bash
-    streamlit run app.py
-
-5. Acesse a interface no navegador:
-    ```bash
-    http://localhost:8501
-    
-    
-<br/>
-
 ## Equipe de desenvolvimento:
 
 <ul>
