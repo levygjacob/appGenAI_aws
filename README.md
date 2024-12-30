@@ -1,6 +1,6 @@
-# 📷🎙️ Aplicação de Processamento de Imagens, Geração de Texto e Transcrição de Áudio com Streamlit, AWS Rekognition e Polly
+# 📷🎙️ Aplicação de Processamento de Imagens, Geração de Texto e Transcrição de Áudio com GradIO, AWS Rekognition e Polly
 
-Esta aplicação demonstra a integração de tecnologias de **Machine Learning** e **Inteligência Artificial** para realizar tarefas avançadas como **reconhecimento de imagens**, **geração de texto criativo** e **conversão de texto para áudio**. A interface interativa foi desenvolvida com **Streamlit**, e os serviços da AWS, como **Rekognition** e **Polly**, são utilizados para processar imagens e gerar áudio.
+Esta aplicação demonstra a integração de tecnologias de **Machine Learning** e **Inteligência Artificial** para realizar tarefas avançadas como **reconhecimento de imagens**, **geração de texto criativo** e **conversão de texto para áudio**. A interface interativa foi desenvolvida com **GradIO**, e os serviços da AWS, como **Rekognition** e **Polly**, são utilizados para processar imagens e gerar áudio.
 
 ---
 
@@ -19,15 +19,15 @@ Esta aplicação demonstra a integração de tecnologias de **Machine Learning**
 ### 3. **Transcrição de Texto para Áudio (Text-to-Speech)**
 - Converte o poema gerado em áudio utilizando o **AWS Polly**.
 - Suporte a vozes em português do Brasil, como **Camila** e **Ricardo**.
-- Reproduz o áudio diretamente na interface com o componente de player de áudio do Streamlit.
-- O áudio gerado é armazenado no estado do Streamlit para evitar repetição desnecessária.
+- Reproduz o áudio diretamente na interface com o componente de player de áudio do GradIO.
+- O áudio gerado é armazenado no estado do GradIO para evitar repetição desnecessária.
 
 ---
 
 ## 💡 Fluxo da Aplicação
 
 1. **Upload da Imagem**:
-   - O usuário faz o upload de uma imagem pela interface do Streamlit.
+   - O usuário faz o upload de uma imagem pela interface do GradIO.
    - A imagem é enviada para o bucket no AWS S3.
    - A aplicação verifica se a imagem já existe no bucket para evitar uploads duplicados.
 
@@ -47,7 +47,7 @@ Esta aplicação demonstra a integração de tecnologias de **Machine Learning**
 
 ## 📦 Tecnologias Utilizadas
 
-- **Frontend**: [Streamlit](https://streamlit.io/)
+- **Frontend**: [GradIO](https://www.gradio.app)
 - **Serviços AWS**:
   - **Rekognition**: Para análise de imagens.
   - **S3**: Para armazenamento de imagens e áudios.
@@ -67,7 +67,7 @@ Esta aplicação demonstra a integração de tecnologias de **Machine Learning**
 3. Ambiente Python configurado com as dependências:
    - `boto3`
    - `openai`
-   - `streamlit`
+   - `GradIO`
 
 ---
 
